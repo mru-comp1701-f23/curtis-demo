@@ -1,5 +1,5 @@
 name = "Salvador"
-animal = "dog"
+animal = "cat"
 age = 5
 
 # multiple arguments to print are displayed with a space between each
