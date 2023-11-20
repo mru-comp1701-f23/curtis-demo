@@ -32,9 +32,9 @@ def valid_input() -> str:
     """
     response = input("Chooose between r/p/s: ")
     # stop looping if response is r or p or s
-    while response != "r" and response != "p" and response != "s":
+    if response not in "rps":
         print("I said choose between r, p, and s!")
-        response = input("Chooose between r/p/s: ")
+        response = valid_input()
     
     return response
 
